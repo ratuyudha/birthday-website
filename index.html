@@ -19,18 +19,18 @@
         }
 
         body {
-            min-height: 100vh;
-            color: white;
-            overflow-x: hidden;
-
-            background:
-                linear-gradient(rgba(2, 6, 23, 0.75), rgba(2, 6, 23, 0.75)),
-                url("bocil.png");
-
-            background-size: contain;
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-attachment: scroll;
+          min-height: 100vh;
+          margin: 0;
+          color: white;
+          overflow-x: hidden;
+        
+          background-image: url("bocil.png");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        
+          /* ini penting */
+          background-attachment: scroll;
         }
 
         .streetlight {
@@ -87,7 +87,7 @@
         /* Motor maju dari kiri ke kanan */
         .motor {
             position: fixed;
-            bottom: 60px;
+            bottom: 50px;
             left: -180px;
             font-size: 70px;
             z-index: 5;
@@ -98,7 +98,7 @@
         /* Mobil maju dari kanan ke kiri */
         .car {
             position: fixed;
-            bottom: 0px;
+            bottom: -5px;
             right: -180px;
             font-size: 78px;
             z-index: 5;
@@ -364,14 +364,14 @@
     <section class="hero">
         <div class="top-box">
             <div class="cake">🎂</div>
-            <h1>Happy Birthday</h1>
+            <h1>Barakallah Fii Umrik Bocil💕</h1>
             <p class="subtitle">
-                Semoga bertambah umur, bertambah bahagia, bertambah sukses,
-                dan tetap jadi orang baik yang selalu dikelilingi hal-hal indah.
+                Dengan bertambahnya umur, kakak do'a kan apapun keinginan kamu yang baik, itu akan dikabulkan.
+                Selamat menjadi remaja, tapi kamu akan tetap jadi bocil kakak. Terima kasih udah bareng selama otw 6 tahun ini
             </p>
 
             <a href="#foto">
-                <button>Scroll ke Foto 🎁</button>
+                <button>Lihat muka gemoy kamu🤭</button>
             </a>
         </div>
     </section>
@@ -381,17 +381,18 @@
             <img src="foto.jpeg" alt="Foto ulang tahun">
         </div>
 
-        <h2 class="name-text">Semoga Tambah Imuddd 🎉</h2>
+        <h2 class="name-text">iya de... iya tambah imoet🎉</h2>
 
-        <button onclick="showWishes()">Klik Ucapan Doa 💌</button>
+        <button onclick="showWishes()">Buat kamu💌</button>
 
         <div class="wish-container" id="wishContainer">
-            <div class="wish-card">Semoga panjang umur, sehat selalu, dan selalu diberikan kebahagiaan.</div>
-            <div class="wish-card">Semoga semua impian yang sedang diperjuangkan bisa tercapai satu per satu.</div>
-            <div class="wish-card">Semoga rezekinya lancar, hatinya tenang, dan hidupnya penuh keberkahan.</div>
-            <div class="wish-card">Semoga tetap jadi pribadi yang kuat, baik, lucu, dan menyenangkan.</div>
-            <div class="wish-card">Semoga tahun ini membawa banyak kejutan indah dan kesempatan baru.</div>
-            <div class="wish-card">Semoga selalu disayang keluarga, teman, dan orang-orang terdekat.</div>
+            <div class="wish-card">Semoga panjang umur, sehat selalu, diberikan kebahagiaan, impian tercapai satu per satu, rezeki lancar, jadi pribadi yang kuat, baik, lucu dan jangan jahat.</div>
+            <div class="wish-card">Terima kasih sudah banyak membawa tawa di kehidupan kakak meskipun cuma dari chat dan game.</div>
+            <div class="wish-card">Kakak harap ketika kamu memang sudah menemukan seorang perempuan, kamu jaga dia baik baik, hormati dan jangan gila perempuan. Jangan pernah kamu selingkuh!!</div>
+            <div class="wish-card">Diumur 17 tahun ini, jangan terbawa arus, kakak harap kamu tidak akan pernah minum alkohol, merokok, apalagi nonton video porno. Jangan rusak diri kamu</div>
+            <div class="wish-card">Jaga derajat perempuan ya de, jangan kamu sentuh sebelum halal. Ini pesan kakak sebagai kakak perempuan dan seorang perempuan</div>
+            <div class="wish-card">Kakak mau lihat kamu secara langsung tapi kamunya ga mau ketemu:(. Sedih banget tau</div>
+            <div class="wish-card">Selamat ulang tahun bocil kakak -Dari Renott💕</div>
         </div>
 
         <button class="hide-btn" id="hideBtn" onclick="hideWishes()">Hide Kembali 🙈</button>
